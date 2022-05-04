@@ -1,4 +1,4 @@
-# Nest.js Crud Tutorial
+# Nest.js CRUD Tutorial
 
 ## Description
 
