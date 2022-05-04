@@ -1,8 +1,8 @@
-# NestJs Crud Tutorial
+# Nest.js Crud Tutorial
 
 ## Description
 
-Crud operations with NestJs. Used Postman for testing.
+Crud operations with Nest.js. Used Postman for testing.
 
 ## Running the app
 
