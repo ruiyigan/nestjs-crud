@@ -1,6 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
 import { UsersService } from "./users.service";
 
+// handling incoming requests from clients and returning clients responses
 @Controller('users')
 export class UserController {
     // prevent overriding of methods

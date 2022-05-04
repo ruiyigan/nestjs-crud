@@ -1,3 +1,5 @@
+// data structure
+
 export class User {
     id: string;
     name: string;

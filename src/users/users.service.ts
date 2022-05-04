@@ -1,7 +1,8 @@
 import { Injectable } from "@nestjs/common";
 import { User } from "./users.model";
 import { v4 as uuidv4 } from 'uuid';
-import { SpawnSyncOptionsWithBufferEncoding } from "child_process";
+
+// handles data management
 @Injectable()
 export class UsersService {
     // fake database, storing array of User objects
