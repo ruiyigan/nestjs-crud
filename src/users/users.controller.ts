@@ -2,6 +2,8 @@ import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common"
 import { UsersService } from "./users.service";
 
 // handling incoming requests from clients and returning clients responses
+// @Controller(<text>) text determines what comes after localhost:3000/
+// in this case 3000/users/
 @Controller('users')
 export class UserController {
     // prevent overriding of methods
@@ -27,7 +29,7 @@ export class UserController {
         return this.userservice.getUsers();
     }
 
-    // means http...user/<userId>
+    // means http...users/<userId>
     @Get(':userId')
     getUser(
         // @Param means req => param
