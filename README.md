@@ -2,7 +2,13 @@
 
 ## Description
 
-Crud operations with Nest.js. Used Postman for testing.
+CRUD operations with Nest.js. 
+Used Postman for testing.
+
+- Nestjs
+- Prisma
+- PostgreSQL
+- Docker
 
 ## Running the app
 
@@ -30,8 +36,9 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Tutorial Used
+### Tutorial Followed
 https://www.youtube.com/watch?v=SJkUzWme08Q
+https://wanago.io/2021/03/29/api-nestjs-prisma-postgresql/
 
 ### Developers
 Gan Rui Yi
